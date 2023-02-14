@@ -1,0 +1,28 @@
+{
+  "name": "SampleTM",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "ampleTM",
+  "permissions": ["storage","scripting","activeTab","tabs","contextMenus"],
+  "icons": {
+    "16": "rb22.png",
+    "48": "rb22.png",
+    "128": "rb22.png"
+  },
+  "host_permissions": [
+    "http://www.teepublic.com/*",
+    "https://www.teepublic.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "SampleTM",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "rb22.png"
+    }
+  },
+
+  "options_page": "./options.html"
+}
