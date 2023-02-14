@@ -4,7 +4,7 @@ if (window.location.href.indexOf("www.teepublic.com/t-shirts?query=") > -1) {
 
 
 
-    //checkif user has inputted license key before doing this
+    //checkif user has inputted license key before doing this:
 
 
     const ce_p = document.createElement('h3');
@@ -15,7 +15,7 @@ if (window.location.href.indexOf("www.teepublic.com/t-shirts?query=") > -1) {
     ce_title2.appendChild(ce_p);
     document.querySelector("div.m-search__page-nav").appendChild(ce_title2);
 
-
+  // end checkif user
 
 
 };
